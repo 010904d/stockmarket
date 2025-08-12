@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; margin: 0; padding: 0; }
+.app { display: grid; grid-template-rows: auto 1fr; min-height: 100vh; }
+.nav { display:flex; gap:1rem; padding:1rem; background:#f3f4f6; }
+.main { padding:1rem; }
+form { display:flex; gap:0.5rem; align-items:center; }
+input, button { padding:0.5rem; }
+table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+td, th { border: 1px solid #ddd; padding: 0.5rem; }
